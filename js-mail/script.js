@@ -9,15 +9,13 @@ for (let i = 0; i < iscritti.length; i++) {
     //Stampa iscritti
     console.log(iscritti[i]);
 
-    if (iscritti == true){
+    if (mail == iscritti[i]){
         console.log (iscritti);
     }
 
-    else if (iscritti == false){
-        console.log (errormail);
-        const errormail=alert("email non valida")
-            
-        }
+    else if (iscritti != iscritti[i]){
+        const errormail=alert("email non valida")    
+    }
 }
 
 
